@@ -12,11 +12,13 @@ class DistanceCalculator:
 
         return squareroot_points
     
-    def manhattan_Distance (self, point1, point2):
+    def Manhattan_Distance (self, point1, point2):
         sub_points = point1[0]- point2[0], point1[1]- point2[1]
         abs_value = (abs(sub_points[0]), sub_points[1])
         sum_points = sum(abs_value)
 
         return sum_points
+    
+
 
  
